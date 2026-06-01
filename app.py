@@ -10,6 +10,8 @@ from src.features import create_features
 
 # КЛУЧЕН УВОЗ: Го повикуваме агентот директно од патеката src.agent
 from src.agent import ask_agent
+from src.preprocessing import load_data_for_company
+from src.features import create_features
 
 st.set_page_config(page_title="Паметно Предвидување Акции & AI Агент", layout="wide")
 
