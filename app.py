@@ -177,7 +177,7 @@ with main_col1:
 # --- ДЕСНА КОЛОНА: ЧАТ АГЕНТ ОД ПОСЕБЕН ФАЈЛ (SRC/AGENT.PY) ---
 with main_col2:
     st.header("💬 AI Финансиски Асистент")
-    st.write("Постави прашање. Агентот работи со агенто од `Brainster` и има пристап до глобалната берза!")
+    st.write("Постави прашање. Агентот работи со агенти од `Brainster` и има пристап до глобалната берза!")
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
